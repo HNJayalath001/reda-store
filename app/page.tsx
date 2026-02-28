@@ -291,7 +291,7 @@ export default function StorefrontPage() {
 
       {/* CONTACT */}
       <div ref={contactRef}>
-        <ContactSection wa={wa} waClean={waClean} settings={settings} />
+<ContactSection wa={wa} waClean={waClean} settings={settings} />
       </div>
 
       {/* GALLERY */}
