@@ -283,13 +283,11 @@ export default function StorefrontPage() {
       </div>
 
       {/* ABOUT */}
-      <div ref={aboutRef}>
-        <AboutSection
-          siteName={siteName}
-          instagramUrl={INSTAGRAM_URL}
-          facebookUrl={FACEBOOK_URL}
-        />
-      </div>
+     <AboutSection
+  siteName={siteName}
+  instagramUrl={INSTAGRAM_URL}
+  facebookUrl={FACEBOOK_URL}
+/>
 
       {/* CONTACT */}
       <div ref={contactRef}>

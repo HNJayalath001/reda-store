@@ -2,6 +2,8 @@
 
 interface AboutSectionProps {
   siteName: string;
+  instagramUrl?: string; // kept to avoid build error
+  facebookUrl?: string;  // kept to avoid build error
 }
 
 const FEATURES = [
