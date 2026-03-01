@@ -291,8 +291,14 @@ export default function StorefrontPage() {
 
       {/* CONTACT */}
       <div ref={contactRef}>
-<ContactSection wa={wa} waClean={waClean} settings={settings} />
-      </div>
+  <ContactSection
+    wa={wa}
+    waClean={waClean}
+    settings={settings}
+    instagramUrl={INSTAGRAM_URL}
+    facebookUrl={FACEBOOK_URL}
+  />
+</div>
 
       {/* GALLERY */}
       <GallerySection

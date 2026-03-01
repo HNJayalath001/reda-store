@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "Quality electronic Parts & Accessories – Sri Lanka",
 
   icons: {
-    icon: "/favicon.ico",          // main favicon
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/apple-icon.png",      // optional (if you create it)
+    apple: "/apple-icon.png", // optional
   },
 
   openGraph: {
     title: "Reda Store",
-    description: "Quality Auto Parts & Accessories – Sri Lanka",
-    url: "https://yourdomain.com", // change to your real domain
+    description: "Quality electronic Parts & Accessories – Sri Lanka",
+    url: "https://redastore.lk", // ✅ put your real domain here
     siteName: "Reda Store",
     locale: "en_LK",
     type: "website",
@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-gray-50">
+    <html lang="en" suppressHydrationWarning>
+      <body className="min-h-screen bg-gray-50" suppressHydrationWarning>
         {children}
       </body>
     </html>
